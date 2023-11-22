@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pasword {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.valid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.valid button {
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+}
+
+.carrito {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.carrito .stickers {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 130px;
+}
+.carrito .stickers img {
+  width: 300px;
+}
+
+.cantidad {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.cursed {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 30px;
+}
+.cursed h1 {
+  padding: 20px;
+}
+.cursed img {
+  width: 640px;
+  cursor: pointer;
+}
+
+.goto {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.goto button {
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+}/*# sourceMappingURL=style.css.map */

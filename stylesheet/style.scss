@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin flex ($d, $j, $t){
+    display: $d;
+    justify-content: $j;
+    text-align: $t;
+}
+
+.pasword {
+    @include flex(flex, center, center);
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.valid {
+    @include flex(flex, center, center);
+    button {
+        cursor: pointer;
+        height: 40px;
+        width: 100px;
+    }
+}
+
+.carrito {
+    @include flex(flex, center, center);
+    flex-direction: column;
+    .stickers {
+        @include flex(flex, center, center);
+        flex-direction: row;
+        gap: 130px;
+        img {
+            width: 300px
+        }
+    }
+}
+
+.cantidad {
+    @include flex(flex, space-around, center);
+
+}
+
+.cursed {
+    @include flex(flex, center, center);
+    flex-direction: column;
+    margin: 30px;
+    h1 {
+        padding: 20px;
+    }
+    img {
+        width: 640px;
+        cursor: pointer;
+     }
+}
+
+.goto {
+    @include flex(flex, space-around, center);
+    button {
+        cursor: pointer;
+        height: 40px;
+        width: 130px;
+    }
+}
