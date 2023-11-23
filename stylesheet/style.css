@@ -58,15 +58,33 @@
 .cursed h1 {
   padding: 20px;
 }
-.cursed img {
-  width: 640px;
+.cursed .img2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.cursed .img2 .img1 {
+  background-color: transparent;
+  border: none;
+  /*   
+      .border {
+          width: 550px;
+          height: 600px;
+          background-color: #871111;
+          position: relative;
+          //border: 30px solid #871111;
+      }
+  */
+}
+.cursed .img2 .img1 img {
+  width: 500px;
   cursor: pointer;
 }
 
 .goto {
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  text-align: end;
 }
 .goto button {
   cursor: pointer;

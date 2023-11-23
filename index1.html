@@ -11,14 +11,50 @@
         <h1>Ingresa la contraseña</h1>
         <br>
         <div>
-            <select name="pasword1" id="pass1"></select>
-            <select name="pasword2" id="pass2"></select>
-            <select name="pasword3" id="pass3"></select>
+            <select name="pasword1" id="pass1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="pasword2" id="pass2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="pasword3" id="pass3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
         </div>
     </section>
     <br>
+    <h1 id="answer1"></h1>
+    <h1 id="answer2"></h1>
+    <br>
     <section class="valid">
-        <button>Ingresar</button>
+        <button onclick="
+            psValid.innerHTML = correctAnswer;
+           check.innerHTML = correctAnswer;
+            ">Ingresar</button>
     </section>
     <br>
     <form class="goto">
