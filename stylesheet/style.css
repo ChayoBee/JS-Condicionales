@@ -14,6 +14,10 @@
   margin: 20px;
 }
 
+.answer h1 {
+  text-align: center;
+}
+
 .valid {
   display: flex;
   justify-content: center;
@@ -58,27 +62,20 @@
 .cursed h1 {
   padding: 20px;
 }
-.cursed .img2 {
+.cursed .img {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.cursed .img2 .img1 {
-  background-color: transparent;
-  border: none;
-  /*   
-      .border {
-          width: 550px;
-          height: 600px;
-          background-color: #871111;
-          position: relative;
-          //border: 30px solid #871111;
-      }
-  */
-}
-.cursed .img2 .img1 img {
+.cursed .img img {
   width: 500px;
   cursor: pointer;
+}
+.cursed .img .border {
+  background-color: #811111;
+  width: 500px;
+  height: 640px;
+  border: 20px solid #811111;
 }
 
 .goto {

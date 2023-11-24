@@ -18,6 +18,12 @@
     margin: 20px;
 }
 
+.answer {
+    h1 {
+        text-align: center;
+    }
+}
+
 .valid {
     @include flex(flex, center, center);
     button {
@@ -52,27 +58,19 @@
     h1 {
         padding: 20px;
     }
-    .img2 {
+    .img {
         @include flex(flex, center, center);
-        .img1 {
-            background-color: transparent;
-            border: none;
-            img {
-                width: 500px;
-                cursor: pointer;
-                //position: absolute;
-            }
-        /*   
-            .border {
-                width: 550px;
-                height: 600px;
-                background-color: #871111;
-                position: relative;
-                //border: 30px solid #871111;
-            }
-        */
+        img {
+            width: 500px;
+            cursor: pointer;
         }
-    }
+        .border {
+            background-color: #811111;
+            width: 500px;
+            height: 640px;
+            border: 20px solid #811111;
+        }
+        }
 }
 
 .goto {
