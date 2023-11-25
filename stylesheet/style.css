@@ -82,27 +82,35 @@
   text-align: center;
 }
 
-.cursed {
+.body3 {
+  background-image: url(../assets/img/bosque.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.body3 .cursed {
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
   margin: 30px;
 }
-.cursed h1 {
+.body3 .cursed h1 {
+  font-family: Shadows Into Light;
+  font-size: 50px;
+  text-align: center;
+  color: darkred;
   padding: 20px;
 }
-.cursed .img {
+.body3 .cursed .img {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.cursed .img img {
+.body3 .cursed .img img {
   width: 500px;
   cursor: pointer;
 }
-
-.border {
+.body3 .border {
   outline: 20px solid #811111;
 }
 

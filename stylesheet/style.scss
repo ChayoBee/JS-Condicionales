@@ -79,23 +79,30 @@
 
 }
 
-.cursed {
-    @include flex(flex, center, center);
-    flex-direction: column;
-    margin: 30px;
-    h1 {
-        padding: 20px;
-    }
-    .img {
+.body3 {
+    background-image: url(../assets/img/bosque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .cursed {
         @include flex(flex, center, center);
-        img {
-            width: 500px;
-            cursor: pointer;
+        flex-direction: column;
+        margin: 30px;
+        h1 {
+            @include font(Shadows Into Light, 50px, center);
+            color: darkred;
+            padding: 20px;
+        }
+        .img {
+            @include flex(flex, center, center);
+            img {
+                width: 500px;
+                cursor: pointer;
+            }
         }
     }
-}
-.border {
-    outline: 20px solid #811111;
+    .border {
+        outline: 20px solid #811111;
+    }
 }
 
 .goto {
